@@ -1,0 +1,11 @@
+{
+  "name": "@realitystateos/utilities",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS Foundation module — Utilities (deepEqual, deepClone, retry, groupBy). Proprietary — see root LICENSE.md.",
+  "main": "dist/utilities.js",
+  "types": "dist/utilities.d.ts",
+  "scripts": { "build": "tsc", "test": "tsc && node dist/test.js" },
+  "devDependencies": { "typescript": "^5.9.3", "@types/node": "^22.0.0" }
+}

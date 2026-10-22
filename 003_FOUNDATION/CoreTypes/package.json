@@ -1,0 +1,24 @@
+{
+  "name": "@realitystateos/core-types",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "RealityStateOS Foundation module — CoreTypes (Id, Timestamp, Result, EntityRecord, Event, Cryptography). Proprietary — see LICENSE.md.",
+  "dependencies": {
+    "@noble/ed25519": "^3.1.0",
+    "@noble/hashes": "^2.2.0",
+    "typescript": "^6.0.3",
+    "ulid": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0"
+  },
+  "private": true,
+  "types": "dist/index.d.ts"
+}

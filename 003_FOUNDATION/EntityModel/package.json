@@ -1,0 +1,17 @@
+{
+  "name": "@realitystateos/entity-model",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS Foundation module — EntityModel + RelationshipModel (typed entities, temporal relationships). Proprietary — see root LICENSE.md.",
+  "main": "dist/entityModel.js",
+  "types": "dist/entityModel.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  }
+}

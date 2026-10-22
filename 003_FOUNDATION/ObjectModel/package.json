@@ -1,0 +1,16 @@
+{
+  "name": "@realitystateos/object-model",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS Foundation module — ObjectModel (BaseObject, Tombstonable, Kinded). Proprietary — see root LICENSE.md.",
+  "main": "dist/objectModel.js",
+  "types": "dist/objectModel.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  }
+}
